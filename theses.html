@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-start</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+    
+   
+<body>
+    <header>
+        <a class="logo" href="index.html">
+            <img src="hk.png" alt="mein Logo">
+        </a>
+
+        <div id="Sidenav" class="burgermenu">
+            <a class="nav" href="javascript:void(0)" onclick="closeNav()">&times;</a>
+            <a class="nav" href="index.html">Startseite</a>
+            <a class="nav" href="history.html">History</a>
+            <a class="nav" href="projects.html">Projects</a>
+            <a class="nav" href="portfolio.html">Portfolio</a>
+            <a class="nav" href="theses.html">Thesen</a>
+            <a class="nav" href="zeugnis.html">Zeugnis</a>
+            <a class="nav" href="phone.html">Kontakt</a>
+        </div>
+    </header>
+    <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <script>
+        function openNav() {
+        document.getElementById("Sidenav").style.width = "100%";
+        }
+
+        function closeNav() {
+        document.getElementById("Sidenav").style.width = "0";
+        }
+    </script>
+
+
+    <h1>VWA</h1>
+
+
+
+    <main>
+        <div id="block"></div>
+        <div class="main-content"><h2>Über Götter, Helden und das einfache Volk</h2></div>
+    </main>
+</body>
+        
+    
+
+
+

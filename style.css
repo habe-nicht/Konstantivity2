@@ -1,0 +1,108 @@
+.burgermenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    text-align: center;
+    background: hsl(334 100% 6% / 0.1);
+    backdrop-filter: blur(0.5rem);
+}
+
+    .burgermenu a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 35px;
+        font-family:'OCR A';
+        color: #0d0;
+        display: block;
+        transition: 0.3s;
+    }
+
+.burgermenu a:hover {
+    color: #fffdd0;
+}
+
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+h1{
+    object-fit: contain;
+    background-color: #da1288;
+    border-radius: 20px;
+    margin-right: 40rem;
+    font-size: 40px;
+    font-family: "OCR A Std";
+    padding-left: 1rem;
+    text-align: center;
+    z-index: 1;
+    position:fixed;
+    
+}
+html {
+    background-image: url(https://ams02pap001files.storage.live.com/y4m8iDwiD3h9X8hQld_ygaQQSBvCcz6nPhtOYrlIH-0ggWxU4Sf7FoZZfD4QXE2U_AbInB1CiPctOnSl2GAg92A_6BiX6UgfyhtxLJ_mINA1AM2uGnKAX2FYsnREaWy1LMYOYyqYH5mcCQ9w6LKr5vV0FDqXbp09S6tM-OG2w6BwUQm32Ahg6yJFeSWd19SsfcO?width=1024&height=949&cropmode=none);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    margin: 40px;
+    backdrop-filter: blur(0.7rem);
+    
+}
+span{
+    color: #fffdd0;
+    position: absolute;
+        top: 0px;
+        right: 8px;
+}
+.logo {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    
+}
+.logo img{
+    width:60px;
+}
+#block{
+    width: 15px;
+    height:500rem;
+    position: absolute;
+    left:0px;
+    top:120px;
+    border-radius:0.7rem;
+    background-color: #02abe3;
+}
+p{
+    font-size: 21px;
+    font-family: "OCR A Std";
+    color:#FFFCD9;
+    padding-top: 100px;
+    position:relative;
+    text-align:center;
+}
+.side-images{
+    border-radius: 15px;
+    position: sticky;
+    margin:3px;
+    width: 80rem;
+}
+h2 {
+    font-size: 35px;
+    font-family: "OCR A Std";
+    color: mintcream;
+}
+.main-content {
+    padding-top: 100px;
+    position: relative;
+    text-align: center;
+    align-content:center;
+}
